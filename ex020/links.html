@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            color: #125d12d5;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        a:visited {
+            color: #006400ca;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: darkgoldenrod;
+        }
+
+       
+        .especial {
+            background-color: #e26565;
+        }
+
+        .especial::before {
+            content: '⇨ ';
+        }
+
+        .especial::after {
+            content: ' ⇦';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/olokinho2207/html.git" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.twitch.tv/olokinho2207" class="especial">Canal do Twitch</a></li>
+        <li><a href="https://twitter.com/azevedin_bru" class="especial">Perfil do Twitter</a></li>
+
+    </ul>
+</body>
+</html>
