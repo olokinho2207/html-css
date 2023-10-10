@@ -1,0 +1,10 @@
+body {
+    height: 90vh;
+    border: 1px #000000d0;
+    background-image: url(image/sonic-clássico.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;   
+    background-position: left bottom;
+}
+
+
