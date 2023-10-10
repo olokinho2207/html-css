@@ -5,11 +5,14 @@ body {
     background-position:center center ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    /*background:color #0000 url(image/wallpaper002.jpg)center center no-repeat fixed; 
+    background-size: cover;*/
 }
 
 main {
     background-color: #fff;
-    width: 400px;   
+    max-width: 500px;   
     padding: 10px;
     margin: auto;
     border: 1px solid #a9a9a9;
