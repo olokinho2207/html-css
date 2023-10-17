@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+thead tr th {
+    position: sticky;
+    top: -1px;
+}
+
+td,th {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 10px;  
+    background-color: #d3d3d3; 
+}
+
+td.num {
+    text-align: right;
+}
+
+thead,tfoot {
+    background-color: #808080;
+    color: #fff;
+}
