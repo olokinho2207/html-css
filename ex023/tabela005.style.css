@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+th, td {
+    border: 1px solid #000000 ;
+    padding: 8px;  
+}
+col.cnome {
+    background-color: #7fff00;
+}
+
+.destaque {
+    background-color: chartreuse;
+}
+
+.amarelo {
+    background-color: #ffff00;
+}
+
+.vermelho {
+    background-color: #ff0000;
+}
+
