@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete= "on">
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" autocomplete="email" required>
+        </div>
+        <div>
+            <label for="tel">Telefone</label>
+            <input type="tel" name="tel" id="tel" autocomplete="tel" pattern="^\"> <!--Estudar RegEx para JS e PHP-->
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form >
+</body>
+</html>
