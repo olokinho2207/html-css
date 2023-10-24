@@ -7,12 +7,12 @@
   </head>
   <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
       <p>
         <label for="estado">Estado:</label>
         <select name="estado" id="estado">
-          
-        <optgroup label="Região Norte">
+          <option value="" selected>---- Escolha ----</option>
+          <optgroup label="Região Norte">
             <option value="AC">Acre</option>
             <option value="AP">Amapá</option>
             <option value="AM">Amazonas</option>
@@ -20,9 +20,9 @@
             <option value="RO">Rondônia</option>
             <option value="RR">Roraima</option>
             <option value="TO">Tocantins</option>
-        </optgroup>
+          </optgroup>
 
-        <optgroup label="Região Nordeste">
+          <optgroup label="Região Nordeste">
             <option value="AL">Alagoas</option>
             <option value="BA">Bahia</option>
             <option value="CE">Ceará</option>
@@ -32,27 +32,43 @@
             <option value="PI">Piauí</option>
             <option value="RN">Rio Grande do Norte</option>
             <option value="SE">Sergipe</option>
-        </optgroup>
+          </optgroup>
 
-        <optgroup label="Região Centro-Oeste">
+          <optgroup label="Região Centro-Oeste">
             <option value="MT">Mato Grossso</option>
             <option value="MS">Mato Grossso do Sul</option>
             <option value="GO">Goiás</option>
-        </optgroup>
+          </optgroup>
 
-        <optgroup label="Região Sudeste">
+          <optgroup label="Região Sudeste">
             <option value="ES">Espirito Santo</option>
             <option value="MG">Minas Gerais</option>
             <option value="SP">São Paulo</option>
             <option value="RJ">Rio de Janeiro</option>
-        </optgroup>
+          </optgroup>
 
-        <optgroup label="Região Sul">
+          <optgroup label="Região Sul">
             <option value="PR">Paraná</option>
             <option value="SC">Santa Catarina</option>
             <option value="RS">Rio Grande do Sul</option>
-        </optgroup>
+          </optgroup>
         </select>
+      </p>
+
+      <p>
+        <label for="prof">Profissão:</label>
+        <input type="text" name="prof" id="prof" list="prof" />
+        <datalist>
+          <option>Administrador</option>
+          <option>Contador</option>
+          <option>Programador</option>
+          <option>Professor</option>
+        </datalist>
+      </p>
+
+      <p>
+        <label for="img">Mensagem:</label><br />
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
       </p>
 
       <p>
