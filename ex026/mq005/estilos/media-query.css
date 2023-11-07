@@ -1,4 +1,4 @@
-@charset "UTF-8;"
+@charset "UTF-8";
 
 @media screen and (min-width:768px) {
     #burguer {
@@ -12,4 +12,9 @@
     menu li {
         display: inline-block;
     }
+
+    main {
+        width: 768px;
+    }
 }
+
